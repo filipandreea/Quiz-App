@@ -51,26 +51,31 @@
                 <th style="width: 30px"></th>
             </tr>
         </thead>
-        <script src="javascrips/js-question-each.js"></script>
-        <script src="javascrips/test-practic.js"></script>
+        <form>
+            Nume:
+            <input type="text">
+            <button type="button">Submit</button>
+        </form>
+        <script src="js-question-each.js"></script>
+        <script src="test-practic.js"></script>
         <script>
             src = "javascrips/index.js"
         </script>
 
-        <!-- <script>
-        $('article .code').each(function(i, el) {
-            console.debug('article', arguments);
-            var editor = ace.edit(el);
-            editor.setReadOnly(true);
-            editor.setTheme("ace/theme/monokai");
-            editor.getSession().setMode("ace/mode/javascript");
-            //editor.resize();
+        <script>
+            $('article .code').each(function(i, el) {
+                console.debug('article', arguments);
+                var editor = ace.edit(el);
+                editor.setReadOnly(true);
+                editor.setTheme("ace/theme/monokai");
+                editor.getSession().setMode("ace/mode/javascript");
+                editor.resize();
 
-            editor.setOptions({
-                maxLines: Infinity
+                editor.setOptions({
+                    maxLines: Infinity
+                });
             });
-        });
-    </script> -->
+        </script>
 
 </body>
 
